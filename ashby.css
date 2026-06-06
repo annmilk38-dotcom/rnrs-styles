@@ -1,4 +1,3 @@
-/* Import IBM Plex Sans */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap');
 
 /* Ukryj nagłówek z licznikiem */
@@ -13,45 +12,44 @@
   font-weight: 500 !important;
   font-size: 24px !important;
   color: #868686 !important;
-  margin-bottom: 24px !important;
+  margin-bottom: 32px !important;
+  display: block !important;
 }
 
 /* Kontener filtrów */
 .ashby-job-board-filters {
-  margin-bottom: 24px !important;
+  margin-bottom: 60px !important;
+  width: 100% !important;
 }
 
 /* Dropdowny filtrów */
 .ashby-job-board-filter {
   font-family: 'IBM Plex Sans', sans-serif !important;
   font-weight: 400 !important;
-  font-size: 24px !important;
+  font-size: 18px !important;
   color: #1a1a1a !important;
   border-radius: 6px !important;
   border: 1px solid #E2E2E2 !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
 }
 
-/* Opcje wewnątrz list rozwijanych */
+/* Opcje wewnątrz list */
 .ashby-job-board-filter option {
   font-family: 'IBM Plex Sans', sans-serif !important;
   font-weight: 400 !important;
-  font-size: 24px !important;
+  font-size: 18px !important;
   color: #1a1a1a !important;
 }
 
-/* Reset filters label */
+/* Reset filters */
 .ashby-job-board-reset-filters-label {
   font-family: 'IBM Plex Sans', sans-serif !important;
   font-size: 18px !important;
   color: #868686 !important;
 }
 
-/* Strzałka dropdown — cieńsza */
-.ashby-job-board-filter {
-  appearance: auto !important;
-}
-
-/* External / Internal — nagłówki działów */
+/* External / Internal */
 .ashby-department-heading,
 .ashby-department-heading-level,
 .ashby-job-posting-brief-department-heading,
@@ -63,6 +61,7 @@
   letter-spacing: -0.01em !important;
   color: #868686 !important;
   margin-bottom: 32px !important;
+  margin-top: 60px !important;
 }
 
 /* Karta oferty */
@@ -74,9 +73,11 @@
   background-color: #ffffff !important;
   transition: background-color 0.2s ease !important;
   margin-bottom: 16px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
 }
 
-/* Hover na karcie */
+/* Hover */
 .ashby-job-posting-brief:hover {
   background-color: #F0F0F0 !important;
 }
@@ -101,10 +102,8 @@
   color: #313131 !important;
 }
 
-/* Rozciągnij kontener ofert na pełną szerokość */
-.ashby-job-board,
-.ashby-job-board-job-postings,
-.ashby-job-postings-container {
-  max-width: 100% !important;
-  width: 100% !important;
+/* Szerokość kontenera */
+:root {
+  --widthMaxJobBoard: 100% !important;
+  --widthMaxContent: 100% !important;
 }
