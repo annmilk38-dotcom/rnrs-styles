@@ -100,3 +100,11 @@
   font-size: 18px !important;
   color: #313131 !important;
 }
+
+/* Rozciągnij kontener ofert na pełną szerokość */
+.ashby-job-board,
+.ashby-job-board-job-postings,
+.ashby-job-postings-container {
+  max-width: 100% !important;
+  width: 100% !important;
+}
