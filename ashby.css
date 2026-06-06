@@ -1,0 +1,59 @@
+/* Import IBM Plex Sans */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap');
+
+/* Ukryj nagłówek z licznikiem i filtrację */
+.ashby-job-board-heading,
+.ashby-job-board-heading-count,
+.ashby-job-board-filters-label,
+.ashby-job-board-filter,
+.ashby-job-board-reset-filters-label,
+.ashby-job-board-filters {
+  display: none !important;
+}
+
+/* External / Internal — nagłówki działów */
+.ashby-department-heading,
+.ashby-department-heading-level,
+.ashby-job-posting-brief-department-heading,
+.ashby-job-posting-brief-department-heading-level {
+  font-family: 'IBM Plex Sans', sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 48px !important;
+  line-height: 110% !important;
+  letter-spacing: -0.01em !important;
+  color: #868686 !important;
+}
+
+/* Karta oferty */
+.ashby-job-posting-brief {
+  font-family: 'IBM Plex Sans', sans-serif !important;
+  padding: 20px !important;
+  border-radius: 16px !important;
+  border: 1px solid #E2E2E2 !important;
+  background-color: #ffffff !important;
+  transition: background-color 0.2s ease !important;
+}
+
+/* Hover na karcie */
+.ashby-job-posting-brief:hover {
+  background-color: #F0F0F0 !important;
+}
+
+/* Nazwa roli */
+.ashby-job-posting-brief-title {
+  font-family: 'IBM Plex Sans', sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 32px !important;
+  line-height: 110% !important;
+  color: #1a1a1a !important;
+}
+
+/* Lokalizacja, typ, tryb pracy */
+.ashby-job-posting-brief-location,
+.ashby-job-posting-brief-employment-type,
+.ashby-job-posting-brief-compensation-tier {
+  font-family: 'IBM Plex Sans', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  color: #313131 !important;
+}
