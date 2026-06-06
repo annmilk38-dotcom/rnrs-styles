@@ -107,3 +107,15 @@
   --widthMaxJobBoard: 100% !important;
   --widthMaxContent: 100% !important;
 }
+
+/* Pokaż filtry zawsze */
+.ashby-job-board-filters-window {
+  display: block !important;
+  height: auto !important;
+  overflow: visible !important;
+}
+
+/* Ukryj toggle ze strzałkami */
+.ashby-job-board-filters-header {
+  display: none !important;
+}
